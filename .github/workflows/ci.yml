@@ -9,7 +9,6 @@ on:
 jobs:
   build-and-check:
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out the repository
         uses: actions/checkout@v4
